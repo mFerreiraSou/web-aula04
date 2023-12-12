@@ -11,7 +11,7 @@ const frases = [
 app.get('/', (req, res) => {
 	res.send("Prog. Web - Hello World.");
 })
-// ismael 
+
 app.get('/frases', (req, res) => {
 	res.send(frases);
 })
